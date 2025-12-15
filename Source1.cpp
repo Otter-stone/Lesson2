@@ -1,10 +1,14 @@
 #include <iostream>
+#include <Windows.h>
 
-int main(){
+int main() {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
 	int num{};
-	std::cout << "Enter a number: " << std::endl;
+	std::cout << "Введите число: ";
 	std::cin >> num;
-	std::cout << "You have entered: \n" << num << std::endl;
+	std::cout << "Вы ввели: " << num << std::endl;
 
 	return EXIT_SUCCESS;
 }
