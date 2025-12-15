@@ -7,9 +7,9 @@ int main() {
 	SetConsoleOutputCP(1251);
 
 	std::string word{};
-	std::cout << "Ââåäèòå ñëîâî: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»Ð¾Ð²Ð¾: ";
 	std::getline(std::cin, word);
-	std::cout << "Âû ââåëè: " << word << std::endl;
+	std::cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸: " << word << std::endl;
 
 	return EXIT_SUCCESS;
 }
